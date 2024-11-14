@@ -23,7 +23,7 @@ func DatabaseConnection() {
 	dbName := "postgres"
 	dbUser := "postgres"
 	password := "pass12234"
-	dsn := fmt.Sprintf("host=%s port=%s user=%s dbname=%s password=%s sslmode=disable",
+	dsn := fmt.Sprintf("host=%s port=%s user=%s dbname=%s password=%s sslmode=require",
 		host,
 		port,
 		dbUser,
